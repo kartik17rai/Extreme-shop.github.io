@@ -1639,7 +1639,7 @@ header {
     }
 }
 
-@media(max-width: 390px){
+@media(max-width: 375px){
     /* nav bar  */
     .nav-logo{
         width: 50px;
@@ -1789,6 +1789,12 @@ header {
         height: 35vh;
         width: 95%;
         z-index: 1;
+    }
+    .promo-content h2{
+        font-size: 1.2rem;
+    }
+    .promo-content1 h2{
+        font-size: 1.2rem;
     }
     .promo-content1{
         height: 35vh;
