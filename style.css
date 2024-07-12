@@ -1639,7 +1639,7 @@ header {
     }
 }
 
-@media(max-width: 395px){
+@media(max-width: 390px){
     /* nav bar  */
     .nav-logo{
         width: 50px;
