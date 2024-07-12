@@ -1639,7 +1639,7 @@ header {
     }
 }
 
-@media(max-width: 395px){
+@media only screen and (max-width: 375px){
     /* nav bar  */
     .nav-logo{
         width: 50px;
@@ -1654,7 +1654,7 @@ header {
     }
     .nav-search{
         margin: 0;
-        width: 10rem;
+        width: 9.5rem;
     }
     .nav-search i{
         display: none;
@@ -1706,12 +1706,12 @@ header {
     /* .  */
     .shopping-cards{
         border-radius: 10px;
-        height: 28vh;
+        height: 26vh;
         width: 40vw;
     }
     .card-img img{
-        height: 150px;
-        width: 150px;
+        height: 130px;
+        width: 130px;
         border-radius: 8px;
     }
     .card-img a{
@@ -1732,7 +1732,7 @@ header {
     }
     .brand-items{
         font-size: 10px;
-        padding: 0.3rem;
+        padding: 0.2rem;
         border-radius: 5px;
     }
     /* .  */
@@ -1790,6 +1790,12 @@ header {
         width: 95%;
         z-index: 1;
     }
+    .promo-content h2{
+        font-size: 1.2rem;
+    }
+    .promo-content1 h2{
+        font-size: 1.2rem;
+    }
     .promo-content1{
         height: 35vh;
         width: 95%;
@@ -1809,8 +1815,15 @@ header {
     .account-container{
         width: 98vw;
     }
+    .account-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
     .account-heading h1{
         font-size: 1.2em;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
     }
     .acc-btn{
         font-size: 12px;
@@ -1823,13 +1836,13 @@ header {
         border-radius: 8px;
     }
     .account-content1{
-        height: 250vh;
+        height: 260vh;
         width: 95vw;
         flex-direction: column;
         align-items: center;
     }
     .acc-items{
-        height: 18vh;
+        height: 20vh;
         width: 70vw;
     }
     .account-content2{
@@ -1869,7 +1882,7 @@ header {
         padding-top: 1rem;
     }
     .order-search input{
-        width: 17em;
+        width: 16em;
     }
     .order-search-btn{
         font-size: 10px;
@@ -2033,7 +2046,7 @@ header {
         height: 165vh;
     }
     .footer-container{
-        height: 150vh;
+        height: 160vh;
         flex-direction: column;
         align-items: center;
     }
