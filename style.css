@@ -1638,3 +1638,436 @@ header {
         height: 3vh;
     }
 }
+
+@media(max-width: 395px){
+    /* nav bar  */
+    .nav-logo{
+        width: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .nav-logo .logo img{
+        height: 40px;
+    }
+    .logo span{
+        display: none;
+    }
+    .nav-search{
+        margin: 0;
+        width: 10rem;
+    }
+    .nav-search i{
+        display: none;
+    }
+    .nav-search input{
+        display: block;
+        border-radius: 8px;
+        width: 100%;
+        padding: 7px;
+        position: relative;
+        top: 15px;
+    }
+    .nav-icons{
+        margin: 0;
+    }
+    .btn{
+        padding: 3px 5px;
+    }
+    .btn i{
+        font-size: 18px;
+    }
+    .btn-log{
+        padding: 3px 5px;
+    }
+    .btn-log i{
+        font-size: 18px;
+    }
+    .nav-xshop a{
+        padding: 0.1rem 0.3rem;
+    }
+    .xshop-items a{
+        font-size: 9px;
+        display: flex;
+        align-items: center;
+    }
+    .xshop-items i{
+        font-size: 14px;
+    }
+    /* home page  */
+    .poster{
+        height: 16vh;
+    }
+    .poster .owl-carousel{
+        height: 16vh;
+    }
+    .poster .owl-carousel .item{
+        height: 16vh;
+    }
+    /* .  */
+    .shopping-cards{
+        border-radius: 10px;
+        height: 28vh;
+        width: 40vw;
+    }
+    .card-img img{
+        height: 150px;
+        width: 150px;
+        border-radius: 8px;
+    }
+    .card-img a{
+        display: none;
+    }
+    .shopping-cards h3{
+        font-size: 12px;
+    }
+    /* .  */
+    .mobile-brands{
+        height: 15vh;
+    }
+    .mobile-brands h1{
+        font-size: 18px;
+    }
+    .brand-container{
+        margin: 1.5rem 1rem;
+    }
+    .brand-items{
+        font-size: 10px;
+        padding: 0.3rem;
+        border-radius: 5px;
+    }
+    /* .  */
+    .movies-content{
+        height: 57vh;
+    }
+    .movies-content h2{
+        font-size: 18px;
+    }
+    .movies-container{
+        height: 40vh;
+        flex-wrap: wrap;
+    }
+    .movies-items{
+        height: 16vh;
+        width: 18vw;
+    }
+    .movies-items img{
+        height: 16vh;
+        width: 18vw;
+    }
+    .btn1{
+        font-size: 16px;
+        padding: 3px 10px;
+    }
+    .btn1:hover{
+        padding-right: 20px;
+    }
+    .btn1 i{
+        font-size: 18px;
+    }
+    /* .  */
+    .toggle-container{
+        height: 40vh;
+    }
+    .toggle-container1{
+        height: 40vh;
+    }
+    .toggle-img{
+        height: 18vh;
+    }
+    .toggle-img img{
+        height: 18vh;
+    }
+    /* .  */
+    .promo-container{
+        height: 76vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .promo-content{
+        height: 35vh;
+        width: 95%;
+        z-index: 1;
+    }
+    .promo-content1{
+        height: 35vh;
+        width: 95%;
+        z-index: 1;
+
+    }
+    .promo-item{
+        height: 25vh;
+        width: 93%;
+    }
+    .promo-item img{
+        height: 25vh;
+        width: 100%;
+    }
+
+    /* account */
+    .account-container{
+        width: 98vw;
+    }
+    .account-heading h1{
+        font-size: 1.2em;
+    }
+    .acc-btn{
+        font-size: 12px;
+        padding: 0.4rem 0.9rem;
+        border-radius: 8px;
+    }
+    .acc-btn1{
+        font-size: 12px;
+        padding: 0.4rem 0.9rem;
+        border-radius: 8px;
+    }
+    .account-content1{
+        height: 250vh;
+        width: 95vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    .acc-items{
+        height: 18vh;
+        width: 70vw;
+    }
+    .account-content2{
+        width: 95vw;
+        height: 300vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    .acc-lists{
+        height: 46vh;
+        width: 70vw;
+    }
+    .acc-lists h2{
+        font-size: 1.1em;
+    }
+    .acc-i i{
+        font-size: 40px;
+        margin: 0;
+    }
+    .acc-detail h2{
+        font-size: 1.1em;
+    }
+    .acc-detail p{
+        font-size: 16px;
+    }
+    /* order */
+    .order-content{
+        height: 60vh;
+        width: 98vw;
+        padding: 0.5rem;
+    }
+    .order-row{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        padding-top: 1rem;
+    }
+    .order-search input{
+        width: 17em;
+    }
+    .order-search-btn{
+        font-size: 10px;
+        border-radius: 8px;
+    }
+    .orders-list ul li{
+        margin-right: 1.5em;
+    }
+    .orders-list ul li a{
+        font-size: 12px;
+    }
+    .order-content2{
+        height: 12vh;
+    }
+    .order-content2 p{
+        font-size: 12px;
+    }
+    /* cart */
+    .cart-container{
+        margin: 1rem;
+        height: 64vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .cart-img{
+        height: 30vh;
+    }
+    .cart-img img{
+        height: 30vh;
+    }
+    .cart-content{
+        height: 30vh;
+        width: 90%;
+        padding: 1rem;
+    }
+    .cart-content h1{
+        font-size: 1.3rem;
+    }
+    .cart-btn1{
+        font-size: 14px;
+        padding: 0.3rem 0.7rem;
+        border-radius: 8px;
+    }
+    .cart-btn2{
+        font-size: 14px;
+        padding: 0.3rem 0.7rem;
+        border-radius: 8px;
+    }
+    .cart-footer{
+        height: 12vh;
+        margin: 2rem;
+    }
+
+    /* download */
+    .version p{
+        font-size: 13px;
+    }
+    .d-container{
+        height: 340vh;
+        width: 95vw;
+    }
+    .d-content{
+        height: 30vh;
+        margin-top: 2rem;
+        width: 90vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .d-logo{
+        height: 65px;
+        width: 78px;
+    }
+    .d-logo img{
+        height: 60px;
+    }
+    .d-text{
+        width: 90vw;
+        height: 4rem;
+        padding: 0;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+    .d-text h3{
+        font-size: 1.5rem;
+    }
+    .d-text h4{
+        font-size: 1rem;
+    }
+    .d-btn{
+        font-size: 18px;
+        padding: 0.5rem 1.5rem;
+    }
+    .d-content2{
+        height: 55vh;
+        width: 94vw;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .d-content3{
+        height: 55vh;
+        width: 94vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .d-1{
+        height: 15vh;
+        width: 100%;
+    }
+    .d-1 h1{
+        font-size: 1.5rem;
+    }
+    .d-1 p{
+        font-size: 1rem;
+    }
+    .d-2{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .d-2 img{
+        height: 30vh;
+    }
+    /* signin/signup  */
+    .signin-container{
+        height: 35vh;
+    }
+    .signin-content{
+        width: 45vw;
+        height: 25vh;
+    }
+    .signin-content h2{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    .signin-content span{
+        font-size: 18px;
+    }
+    .signin-inputs{
+        border: 1px solid rgb(104, 104, 104);
+        border-radius: 8px;
+    }
+    .signin-inputs input{
+        width: 100%;
+        height: 3rem;
+        border-radius: 8px;
+    }
+    .btn3{
+        height: 3rem;
+        width: 100%;
+    }
+    .signin-signup{
+        width: 45vw;
+        height: 3rem;
+    }
+    /* footer */
+    .nav-footer{
+        height: 165vh;
+    }
+    .footer-container{
+        height: 150vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer2-container{
+        height: 8vh;
+    }
+    .footer-content{
+        width: 60vw;
+        height: auto;
+    }
+    .footer2-content{
+        height: 15vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-footer2{
+        height: 20vh;
+    }
+    .footer2-logo{
+        display: flex;
+        align-items: center;
+    }
+    .footer2-logo img{
+        height: 40px;
+    }
+    .footer2-logo span{
+        font-size: 16px;
+    }
+    .footer2-items a{
+        font-size: 14px;
+    }
+    
+    .footer2-container p{
+        font-size: 7px;
+    }
+}
