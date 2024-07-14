@@ -1639,22 +1639,22 @@ header {
     }
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 320px){
     /* nav bar  */
     .nav-logo{
-        width: 50px;
+        width: 40px;
         display: flex;
         align-items: center;
     }
     .nav-logo .logo img{
-        height: 40px;
+        height: 30px;
     }
     .logo span{
         display: none;
     }
     .nav-search{
         margin: 0;
-        width: 9.5rem;
+        width: 9rem;
     }
     .nav-search i{
         display: none;
@@ -1671,19 +1671,19 @@ header {
         margin: 0;
     }
     .btn{
-        padding: 3px 5px;
+        padding: 2px 4px;
     }
     .btn i{
         font-size: 18px;
     }
     .btn-log{
-        padding: 3px 5px;
+        padding: 2px 4px;
     }
     .btn-log i{
         font-size: 18px;
     }
     .nav-xshop a{
-        padding: 0.1rem 0.3rem;
+        padding: 0.09rem 0.2rem;
     }
     .xshop-items a{
         font-size: 9px;
@@ -1695,87 +1695,90 @@ header {
     }
     /* home page  */
     .poster{
-        height: 16vh;
+        height: 14vh;
     }
     .poster .owl-carousel{
-        height: 16vh;
+        height: 14vh;
     }
     .poster .owl-carousel .item{
-        height: 16vh;
+        height: 14vh;
     }
     /* .  */
     .shopping-cards{
-        border-radius: 10px;
-        height: 26vh;
-        width: 40vw;
+        border-radius: 8px;
+        height: 23vh;
+        width: 43vw;
     }
     .card-img img{
-        height: 130px;
-        width: 130px;
+        height: 120px;
+        width: 120px;
         border-radius: 8px;
     }
     .card-img a{
         display: none;
     }
     .shopping-cards h3{
-        font-size: 12px;
+        font-size: 10px;
     }
     /* .  */
     .mobile-brands{
         height: 15vh;
+        border-radius: 8px;
     }
     .mobile-brands h1{
-        font-size: 18px;
+        font-size: 16px;
     }
     .brand-container{
-        margin: 1.5rem 1rem;
+        margin: 1.5rem 0.2rem;
     }
     .brand-items{
         font-size: 10px;
         padding: 0.2rem;
-        border-radius: 5px;
+        border-radius: 3px;
     }
     /* .  */
     .movies-content{
-        height: 57vh;
+        height: 49vh;
+        border-radius: 10px;
     }
     .movies-content h2{
-        font-size: 18px;
+        font-size: 16px;
     }
     .movies-container{
-        height: 40vh;
+        height: 34vh;
         flex-wrap: wrap;
     }
     .movies-items{
-        height: 16vh;
+        height: 14vh;
         width: 18vw;
     }
     .movies-items img{
-        height: 16vh;
+        height: 14vh;
         width: 18vw;
     }
     .btn1{
-        font-size: 16px;
-        padding: 3px 10px;
+        font-size: 12px;
+        padding: 3px 8px;
+        border-radius: 5px;
     }
     .btn1:hover{
         padding-right: 20px;
     }
     .btn1 i{
-        font-size: 18px;
+        font-size: 12px;
     }
     /* .  */
     .toggle-container{
-        height: 40vh;
+        height: 35vh;
     }
     .toggle-container1{
-        height: 40vh;
+        height: 35vh;
     }
     .toggle-img{
-        height: 18vh;
+        height: 16vh;
     }
     .toggle-img img{
-        height: 18vh;
+        height: 16vh;
     }
     /* .  */
     .promo-container{
@@ -1791,16 +1794,15 @@ header {
         z-index: 1;
     }
     .promo-content h2{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .promo-content1 h2{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .promo-content1{
         height: 35vh;
         width: 95%;
         z-index: 1;
-
     }
     .promo-item{
         height: 25vh;
@@ -1859,7 +1861,7 @@ header {
         font-size: 1.1em;
     }
     .acc-i i{
-        font-size: 40px;
+        font-size: 30px;
         margin: 0;
     }
     .acc-detail h2{
@@ -1875,24 +1877,33 @@ header {
         padding: 0.5rem;
     }
     .order-row{
-        height: 20vh;
+        height: 15vh;
         display: flex;
         flex-direction: column;
         align-items: baseline;
-        padding-top: 1rem;
+        padding-top: 0.5rem;
+    }
+    .order-heading h1{
+        font-size: 1.5rem;
     }
     .order-search input{
-        width: 16em;
+        width: 14em;
     }
     .order-search-btn{
         font-size: 10px;
         border-radius: 8px;
     }
+    .orders-list{
+        padding: 1em;
+    }
     .orders-list ul li{
-        margin-right: 1.5em;
+        margin-right: 1.3em;
     }
     .orders-list ul li a{
-        font-size: 12px;
+        font-size: 11px;
+    }
+    .order-detail p{
+        font-size: 13px;
     }
     .order-content2{
         height: 12vh;
@@ -1923,12 +1934,12 @@ header {
         font-size: 1.3rem;
     }
     .cart-btn1{
-        font-size: 14px;
+        font-size: 13px;
         padding: 0.3rem 0.7rem;
         border-radius: 8px;
     }
     .cart-btn2{
-        font-size: 14px;
+        font-size: 13px;
         padding: 0.3rem 0.7rem;
         border-radius: 8px;
     }
@@ -1936,13 +1947,15 @@ header {
         height: 12vh;
         margin: 2rem;
     }
-
+    .cart-footer p{
+        font-size: 12px;
+    }
     /* download */
     .version p{
-        font-size: 13px;
+        font-size: 11px;
     }
     .d-container{
-        height: 340vh;
+        height: 320vh;
         width: 95vw;
     }
     .d-content{
@@ -1955,6 +1968,7 @@ header {
     .d-logo{
         height: 65px;
         width: 78px;
+        margin-bottom: 1em;
     }
     .d-logo img{
         height: 60px;
@@ -1967,24 +1981,25 @@ header {
         align-items: center;
     }
     .d-text h3{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .d-text h4{
         font-size: 1rem;
     }
     .d-btn{
-        font-size: 18px;
-        padding: 0.5rem 1.5rem;
+        font-size: 14px;
+        padding: 0.4rem 1rem;
+        border-radius: 8px;
     }
     .d-content2{
-        height: 55vh;
+        height: 52vh;
         width: 94vw;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
     .d-content3{
-        height: 55vh;
+        height: 52vh;
         width: 94vw;
         flex-direction: column;
         justify-content: center;
@@ -1995,19 +2010,19 @@ header {
         width: 100%;
     }
     .d-1 h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .d-1 p{
-        font-size: 1rem;
+        font-size: 14px;
     }
     .d-2{
-        height: 30vh;
+        height: 25vh;
         width: 100%;
         display: flex;
         align-items: center;
     }
     .d-2 img{
-        height: 30vh;
+        height: 25vh;
     }
     /* signin/signup  */
     .signin-container{
@@ -2077,9 +2092,8 @@ header {
         font-size: 16px;
     }
     .footer2-items a{
-        font-size: 14px;
+        font-size: 12px;
     }
-    
     .footer2-container p{
         font-size: 7px;
     }
