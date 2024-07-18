@@ -2032,15 +2032,15 @@ header {
     }
     /* signin/signup  */
     .signin-container{
-        height: 35vh;
+        height: 95vh;
     }
     .signin-content{
-        width: 45vw;
-        height: 25vh;
+        width: 55vw;
+        height: 70vh;
     }
     .signin-content h2{
-        font-size: 2.5rem;
-        margin-bottom: 2rem;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
     }
     .signin-content span{
         font-size: 18px;
@@ -2051,16 +2051,17 @@ header {
     }
     .signin-inputs input{
         width: 100%;
-        height: 3rem;
+        height: 2.7rem;
         border-radius: 8px;
     }
     .btn3{
-        height: 3rem;
+        height: 2.7rem;
         width: 100%;
     }
     .signin-signup{
         width: 45vw;
-        height: 3rem;
+        height: 2.7rem;
+        margin-top: 0.5rem;
     }
     /* footer */
     .nav-footer{
@@ -2495,18 +2496,18 @@ header {
     }
     /* signin/signup  */
     .signin-container{
-        height: 35vh;
+        height: 95vh;
     }
     .signin-content{
-        width: 45vw;
-        height: 25vh;
+        width: 55vw;
+        height: 70vh;
     }
     .signin-content h2{
-        font-size: 2.5rem;
-        margin-bottom: 2rem;
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
     }
     .signin-content span{
-        font-size: 18px;
+        font-size: 16px;
     }
     .signin-inputs{
         border: 1px solid rgb(104, 104, 104);
@@ -2514,16 +2515,17 @@ header {
     }
     .signin-inputs input{
         width: 100%;
-        height: 3rem;
+        height: 2.4rem;
         border-radius: 8px;
     }
     .btn3{
-        height: 3rem;
+        height: 2.4rem;
         width: 100%;
     }
     .signin-signup{
         width: 45vw;
-        height: 3rem;
+        height: 2.4rem;
+        margin-top: 0.5rem;
     }
     /* footer */
     .nav-footer{
