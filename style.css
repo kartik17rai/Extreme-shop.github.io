@@ -2304,13 +2304,13 @@ header {
         border-radius: 8px;
     }
     .account-content1{
-        height: 310vh;
+        height: 350vh;
         width: 95vw;
         flex-direction: column;
         align-items: center;
     }
     .acc-items{
-        height: 24vh;
+        height: 27vh;
         width: 70vw;
     }
     .account-content2{
