@@ -2161,22 +2161,22 @@ header {
     }
     /* home page  */
     .poster{
-        height: 35vh;
+        height: 28vh;
     }
     .poster .owl-carousel{
-        height: 35vh;
+        height: 28vh;
     }
     .poster .owl-carousel .item{
-        height: 35vh;
+        height: 28vh;
     }
     /* .  */
     .shopping-cards{
         border-radius: 8px;
-        height: 35vh;
+        height: 30vh;
         width: 35vw;
     }
     .card-img img{
-        height: 28vh;
+        height: 24vh;
         width: 30vw;
         border-radius: 8px;
     }
