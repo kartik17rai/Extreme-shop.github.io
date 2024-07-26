@@ -2303,20 +2303,20 @@ header {
         border-radius: 8px;
     }
     .account-content1{
-        height: 70vh;
-        width: 97vw;
+        height: 75vh;
+        width: 96vw;
         flex-direction: row;
         align-items: center;
     }
     .acc-items{
-        height: 15vh;
+        height: 16vh;
         width: 28vw;
     }
     .acc-i {
         display: flex;
     }
     .acc-i i{
-        font-size: 15px;
+        font-size: 10px;
         margin: 0;
         padding: 0;
     }
@@ -2329,16 +2329,16 @@ header {
     }
     .account-content2{
         width: 97vw;
-        height: 95vh;
+        height: 100vh;
         flex-direction: row;
         align-items: center;
     }
     .acc-lists{
-        height: 43vh;
+        height: 45vh;
         width: 28vw;
     }
     .acc-lists h2{
-        font-size: 12px;
+        font-size: 10px;
     }
     .acc-lists ul li a{
         font-size: 8px;
@@ -2501,16 +2501,32 @@ header {
     .signin-container{
         height: 95vh;
     }
+    .signin-logo{
+        height: 40px;
+        width: 200px;
+    }
+    .signin-logo img{
+        height: 40px;
+        padding-left: 5px;
+    }
+    .signin-logo span{
+        font-size: 16px;
+        font-weight: 800;
+        position: relative;
+        top: -15px;
+        left: 5px;
+        color: black;
+    }
     .signin-content{
-        width: 55vw;
+        width: 70vw;
         height: 70vh;
     }
     .signin-content h2{
-        font-size: 1.6rem;
+        font-size: 16px;
         margin-bottom: 1.5rem;
     }
     .signin-content span{
-        font-size: 16px;
+        font-size: 10px;
     }
     .signin-inputs{
         border: 1px solid rgb(104, 104, 104);
@@ -2518,7 +2534,7 @@ header {
     }
     .signin-inputs input{
         width: 100%;
-        height: 2.4rem;
+        height: 1.7rem;
         border-radius: 8px;
     }
     .btn3{
