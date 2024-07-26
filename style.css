@@ -2161,30 +2161,30 @@ header {
     }
     /* home page  */
     .poster{
-        height: 28vh;
+        height: 18vh;
     }
     .poster .owl-carousel{
-        height: 28vh;
+        height: 18vh;
     }
     .poster .owl-carousel .item{
-        height: 28vh;
+        height: 18vh;
     }
     /* .  */
     .shopping-cards{
         border-radius: 8px;
-        height: 30vh;
-        width: 35vw;
+        height: 25vh;
+        width: 40vw;
     }
     .card-img img{
-        height: 24vh;
-        width: 30vw;
+        height: 18vh;
+        width: 35vw;
         border-radius: 8px;
     }
     .card-img a{
         display: none;
     }
     .shopping-cards h3{
-        font-size: 10px;
+        font-size: 8px;
     }
     /* .  */
     .mobile-brands{
@@ -2192,7 +2192,7 @@ header {
         border-radius: 8px;
     }
     .mobile-brands h1{
-        font-size: 16px;
+        font-size: 14px;
     }
     .brand-container{
         margin: 1.5rem 0.2rem;
@@ -2204,22 +2204,22 @@ header {
     }
     /* .  */
     .movies-content{
-        height: 60vh;
+        height: 55vh;
         border-radius: 10px;
     }
     .movies-content h2{
         font-size: 16px;
     }
     .movies-container{
-        height: 46vh;
+        height: 40vh;
         flex-wrap: wrap;
     }
     .movies-items{
-        height: 18vh;
+        height: 15vh;
         width: 18vw;
     }
     .movies-items img{
-        height: 18vh;
+        height: 15vh;
         width: 18vw;
     }
     .btn1{
@@ -2235,53 +2235,52 @@ header {
     }
     /* .  */
     .toggle-container{
-        height: 55vh;
+        height: 34vh;
     }
     .toggle-container1{
-        height: 55vh;
+        height: 34vh;
     }
     .toggle-img{
-        height: 25vh;
+        height: 15vh;
     }
     .toggle-img img{
-        height: 25vh;
+        height: 15vh;
     }
     /* .  */
     .promo-container{
-        height: 110vh;
+        height: 30vh;
         width: 100%;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
     }
-    .promo-content{
-        height: 50vh;
-        width: 95%;
-        z-index: 1;
-    }
+
     .promo-content h2{
-        font-size: 1rem;
+        font-size: 0.5rem;
+        margin: 0;
     }
     .promo-content1 h2{
-        font-size: 1rem;
+        font-size: 0.5rem;
+        margin: 0.5rem;
+
     }
     .promo-content1{
-        height: 50vh;
-        width: 95%;
+        height: 25vh;
+        width: 45vw;
         z-index: 1;
     }
     .promo-item{
-        height: 41vh;
-        width: 96%;
+        height: 20vh;
+        width: 40vw;
     }
     .promo-item img{
-        height: 41vh;
+        height: 20vh;
         width: 100%;
     }
 
     /* account */
     .account-container{
-        width: 98vw;
+        width: 99vw;
     }
     .account-heading{
         display: flex;
@@ -2304,41 +2303,45 @@ header {
         border-radius: 8px;
     }
     .account-content1{
-        height: 350vh;
-        width: 95vw;
-        flex-direction: column;
+        height: 70vh;
+        width: 97vw;
+        flex-direction: row;
         align-items: center;
     }
     .acc-items{
-        height: 27vh;
-        width: 70vw;
+        height: 15vh;
+        width: 28vw;
+    }
+    .acc-i {
+        display: flex;
+    }
+    .acc-i i{
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .acc-detail h2{
+        font-size: 10px;
+    }
+    .acc-detail p{
+        font-size: 8px;
+        line-height: 1.2;
     }
     .account-content2{
-        width: 95vw;
-        height: 300vh;
-        flex-direction: column;
+        width: 97vw;
+        height: 95vh;
+        flex-direction: row;
         align-items: center;
     }
     .acc-lists{
-        height: 48vh;
-        width: 70vw;
+        height: 43vh;
+        width: 28vw;
     }
     .acc-lists h2{
-        font-size: 1.4em;
+        font-size: 12px;
     }
     .acc-lists ul li a{
-        font-size: 17px;
-    }
-    .acc-i i{
-        font-size: 40px;
-        margin: 0;
-    }
-    .acc-detail h2{
-        font-size: 1.4em;
-    }
-    .acc-detail p{
-        font-size: 22px;
-        line-height: 1.4;
+        font-size: 8px;
     }
     /* order */
     .order-content{
